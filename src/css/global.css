@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+html {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+main {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.big-button-collection {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.big-button-wrapper {
+  position: relative;
+  background-color: #990000;
+  color: white;
+  width: 200px;
+  height: 200px;
+}
+
+.big-button {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: rotate(-90deg);
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-orientation: sideways;
+  text-shadow: #440000 -2px 2px;
+}
+
+.big-button-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  opacity: .3;
+}
